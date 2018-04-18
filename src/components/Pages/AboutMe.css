@@ -1,0 +1,19 @@
+.aboutMe{
+	background-color: #06a763;
+}
+.aboutMeMore{
+	background-color: #ffffff;
+}
+.aboutMeInfo{
+	padding: 30px;
+}
+.about-btn{
+	text-align: center;
+}
+.About-btn{
+	margin: 7px;
+	background-color: #06A763;
+	width: 180px;
+	color: #fff;
+	border-radius: 1px;
+}

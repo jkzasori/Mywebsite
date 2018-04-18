@@ -20,10 +20,15 @@ class Skills extends Component {
   };
   render() {
     return (
-    		<div>
-    			<SorTable items={this.state.LPYLD} onSortEnd={this.onSortEnd} />
-    			jose
-    			<SorTable items={this.state.BD} onSortEnd={this.onSortEndB} />
+    		<div >
+          <div className="ShadowBox Section">
+            <SorTable items={this.state.LPYLD} onSortEnd={this.onSortEnd} />
+          </div>
+    			<div className="ShadowBox Section">
+            jose
+          <SorTable items={this.state.BD} onSortEnd={this.onSortEndB} />
+          </div>
+    			
     		</div>
     		);
   }

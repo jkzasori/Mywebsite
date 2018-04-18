@@ -6,16 +6,17 @@ import Studies from './Pages/Studies';
 import Contact from './Pages/Contact';
 import Footer from './Pages/Footer';
 
+import './home.css';
+
 export default class Home extends Component {
 	render() {
 		return(
-			<div >
+			<div className="ShadowBox">
 				<Bar />
 				<div className="container">
 					<AboutMe />
 					<Skills />
 					<Studies />
-					<Contact />
 					<Footer />
 				</div>
 				

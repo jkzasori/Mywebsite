@@ -1,0 +1,19 @@
+.ContentBox{
+	 background-color: tomato;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.Box {
+	background-color: #d6d7d9;
+	color: #000;
+	font-size: 24px;
+	margin: 0.5%;
+	width: 150px;
+	height: 150px;
+	text-align: center;
+	line-height: 150px;
+}
+.Box:hover{
+	cursor: Move;
+}

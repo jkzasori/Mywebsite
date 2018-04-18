@@ -2,7 +2,7 @@ import React from 'react';
 import {Panel} from 'react-bootstrap';
 const Studies = () => {
 	return(
-		<div>
+		<div className="ShadowBox Section">
 			
 			<Panel>
 				<Panel.Heading>
