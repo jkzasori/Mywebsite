@@ -7,11 +7,13 @@ import { Button, Navbar,
 	FormGroup, 
 	FormControl } from 'react-bootstrap';
 
+import './Bar.css';
+
 const Bar = () =>{
 	return(
-		<div>
-<Navbar inverse collapseOnSelect>
-  <Navbar.Header>
+		<div >
+<Navbar inverse collapseOnSelect className="navbar-fixed-top">
+  <Navbar.Header >
     <Navbar.Brand>
       <a href="#brand">José Támara</a>
     </Navbar.Brand>

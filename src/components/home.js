@@ -13,13 +13,14 @@ export default class Home extends Component {
 		return(
 			<div className="ShadowBox">
 				<Bar />
-				<div className="container">
+				<div className="container ">
 					<AboutMe />
-					<Skills />
 					<Studies />
+					<Skills />
+					
+	
 					<Footer />
 				</div>
-				
 			</div>
 			)
 	}	

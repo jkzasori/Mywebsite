@@ -1,38 +1,43 @@
 import React from 'react';
 import {Panel} from 'react-bootstrap';
+import './Studies.css';
+
 const Studies = () => {
 	return(
-		<div className="ShadowBox Section">
-			
-			<Panel>
-				<Panel.Heading>
-					Universitarios:
-				</Panel.Heading>
-				<Panel.Body>
-					Ingeniero de sistemas de la
-					Universidad de Cartagena
-					(Estudios académicamente finalizados)
-				</Panel.Body>
-			</Panel>
-			<Panel>
-				<Panel.Heading>Estudios Secundarios:
-				</Panel.Heading>
-				<Panel.Body>
-					Institución Educativa Felipe Santiago Escobar
-					Bachiller académico
-					Turbaco – Bolivar
-					2010
-				</Panel.Body>
-			</Panel>
-			<Panel>
-				<Panel.Heading>Estudios Primarios:
-				</Panel.Heading>
-				<Panel.Body>
-					Institución Educativa Felipe Santiago Escobar
-					Turbaco – Bolivar
-					2004
-				</Panel.Body>
-			</Panel>
+		<div className="Section">
+			<div className="subTitle">
+				<h2>ESTUDIES</h2>
+			</div>
+			<div className="  timeline">
+				<div className="boxContainer left ">
+					<div className="box  ShadowBox">
+					<h2>2018</h2>
+	      				<p>Ingeniero de Sistemas<br/>
+						Universidad de Cartagena<br/>
+						(Estudios académicamente finalizados)</p>
+					</div>
+				</div>
+				<div className="boxContainer right">
+					<div className="box  ShadowBox">
+					<h2>2010</h2>
+					<p>
+						Bachiller Académico<br/>
+						Institución Educativa Felipe Santiago Escobar<br/>
+						Turbaco – Bolivar
+					</p>
+					</div>
+				</div>
+				<div className="boxContainer left">
+					<div className="box ShadowBox">
+						<h2>2004</h2>
+						<p>
+						Estudios Escolares<br/>
+						Institución Educativa Felipe Santiago Escobar<br/>
+						Turbaco – Bolivar
+						</p>
+					</div>
+				</div>
+			</div>
 		</div>
 		)
 }

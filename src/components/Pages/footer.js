@@ -1,9 +1,10 @@
 import React from 'react';
+import './footer.css';
 
 const Footer = () => {
 	return(
-		<div className="ShadowBox Section">
-			Footer
+		<div className=" Section footer">
+			® CV All right reserved by jkzasori :p 
 		</div>
 		)
 }

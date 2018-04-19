@@ -1,0 +1,21 @@
+.Contact{
+	color: #fff;
+}
+.contactText{
+	white-space: pre;
+}
+.Me{
+	text-shadow: 2px 2px 4px rgba(0,0,0,0.29);
+}
+.Me h3{
+	margin-top: 0px;
+	font-size: 1.2em;
+}
+.Me h1{
+	margin-bottom: 0px;
+	text-transform: uppercase;
+}
+.info ul li {
+	list-style-type: none;
+	
+}

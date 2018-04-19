@@ -3,16 +3,23 @@ import {Row, Col, Button } from 'react-bootstrap';
 import './AboutMe.css';
 import Contact from './Contact';
 
+
 const AboutMe = () => {
 	return(
-			<div >
-
+			<div className="aboutMe-init">
 					<Row className="">
 						<Col sm={12} className="aboutMe ShadowBox Section">
-							<Col sm={6} md={3}>
-								<img width={192} height={192} src="./src/img/profile.jpg" alt="thumbnail" />
+							<Col sm={6} md={5} className="">
+								<Col sm={12} md={12}>
+									<img className="aboutMe-img" src="./src/img/profile1.jpg" alt="thumbnail" />
+								</Col>
+								<div className="aboutMe-img-up" >
+								</div>
 							</Col>
-							<Col sm={6} md={9}>
+							<Col sm={6} md={7} className="aboutMe-contact">
+								<div className="profile-img">
+									<img className="about-img-movil" src="./src/img/profile1.jpg" alt="thumbnail" />
+								</div>								
 								<Contact />
 							</Col>
 						</Col>
@@ -27,9 +34,7 @@ const AboutMe = () => {
 							</div>
 							
 						</Col>
-					</Row>
-			
-			
+					</Row>	
 	</div>
 		)
 }

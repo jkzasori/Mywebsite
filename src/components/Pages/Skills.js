@@ -20,6 +20,10 @@ class Skills extends Component {
   };
   render() {
     return (
+      <div className="Section">
+        <div className="subTitle">
+          <h2>Skills</h2>
+        </div>
     		<div >
           <div className="ShadowBox Section">
             <SorTable items={this.state.LPYLD} onSortEnd={this.onSortEnd} />
@@ -30,6 +34,7 @@ class Skills extends Component {
           </div>
     			
     		</div>
+      </div>
     		);
   }
 }
