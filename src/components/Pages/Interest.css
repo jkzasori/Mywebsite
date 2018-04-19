@@ -1,0 +1,23 @@
+.Interest{
+	padding: 30px;
+	background: white;
+}
+
+.ILittleBox{
+	text-align: center;
+	border-top: 1px solid #e6e5e5;
+	height: 105px;
+}
+.ILittleBox .icon{
+	font-size: 2em;
+	margin-top: 22px;
+}
+
+.ILittleBox.Green{
+	color: white;
+	background-color: #06A763;
+}
+.ILittleBox.White{
+	color: #06A763;
+	background: #fff;
+}

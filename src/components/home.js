@@ -7,21 +7,20 @@ import Studies from './Pages/Studies';
 import Contact from './Pages/Info';
 import Footer from './Pages/Footer';
 import Interest from './Pages/Interest';
-import ContactForm from './Pages/ContactForm';
+import Header from './Pages/Header';
 import Portafolio from './Pages/Portafolio';
 
 export default class Home extends Component {
 	render() {
 		return(
 			<div className="ShadowBox">
-				<Bar />
+				<Header />
 				<div className="container ">
 					<AboutMe />
 					<Studies />
 					<Skills />
 					<Portafolio />
 					<Interest />
-					<ContactForm />
 					<Footer />
 				</div>
 			</div>
