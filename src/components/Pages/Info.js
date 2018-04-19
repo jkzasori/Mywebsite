@@ -1,7 +1,7 @@
 import React from 'react';
-import './Contact.css';
+import './Info.css';
 import  * as FontAwesome from 'react-icons/lib/fa';
-const Contact = () =>{
+const Info = () =>{
 	return(
 		<div className="Contact">
 			<div className="Me">
@@ -31,4 +31,4 @@ const Contact = () =>{
 		)
 }
 
-export default Contact;
+export default Info;

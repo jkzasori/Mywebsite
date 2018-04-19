@@ -1,7 +1,7 @@
 import React from 'react';
 import {Row, Col, Button } from 'react-bootstrap';
 import './AboutMe.css';
-import Contact from './Contact';
+import Info from './Info';
 
 
 const AboutMe = () => {
@@ -20,7 +20,7 @@ const AboutMe = () => {
 								<div className="profile-img">
 									<img className="about-img-movil" src="./src/img/profile1.jpg" alt="thumbnail" />
 								</div>								
-								<Contact />
+								<Info />
 							</Col>
 						</Col>
 						<Col sm={12}  className=" Section ShadowBox aboutMeMore">

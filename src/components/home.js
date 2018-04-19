@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
+import './home.css';
 import Bar from './Bar/Bar';
 import AboutMe from './Pages/AboutMe';
 import Skills from './Pages/Skills';
 import Studies from './Pages/Studies';
-import Contact from './Pages/Contact';
+import Contact from './Pages/Info';
 import Footer from './Pages/Footer';
-
-import './home.css';
+import Interest from './Pages/Interest';
+import ContactForm from './Pages/ContactForm';
+import Portafolio from './Pages/Portafolio';
 
 export default class Home extends Component {
 	render() {
@@ -17,8 +19,9 @@ export default class Home extends Component {
 					<AboutMe />
 					<Studies />
 					<Skills />
-					
-	
+					<Portafolio />
+					<Interest />
+					<ContactForm />
 					<Footer />
 				</div>
 			</div>
