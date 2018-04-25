@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import {SortableContainer, SortableElement} from 'react-sortable-hoc';
 import './SorTable.css';
-
-const SortableItem = SortableElement(({value}) => <div className="Box">{value}</div>);
+import {ProgressBar} from 'react-bootstrap';
+const SortableItem = SortableElement(({value}) =>  <div className="Box"><ProgressBar bsStyle="success" now={75} label={`75%`}/>{value}</div>);
 
 const SorTable = SortableContainer(({items}) => {
   return (

@@ -1,18 +1,19 @@
 .ContentBox{
-	 background-color: #06a763;
+	 background-color: #ecefed;
   display: flex;
   flex-wrap: wrap;
   padding: 10px;
+  text-align: center;
 }
 .Box {
-	background-color: #d6d7d9;
+	background-color: #fff;
 	color: #000;
-	font-size: 24px;
+	font-size: 16px;
 	margin: 0.5%;
 	width: 150px;
-	height: 150px;
+	height: 50px;
 	text-align: center;
-	line-height: 150px;
+	
 }
 .Box:hover{
 	cursor: Move;
